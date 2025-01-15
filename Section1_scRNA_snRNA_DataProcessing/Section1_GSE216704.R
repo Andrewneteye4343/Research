@@ -53,7 +53,7 @@ GSE216704_object = merge(x = data1, y = c(data2,data3,data4,data5,data6,data7,da
                          add.cell.ids = c("9175","9176","9177","9178","9179","9180","9181","9182","9183","9184","9186","9187","9188","9189","9190","9191","9192","9193"), project = "merge_data")
 
 # Rename gene name from Ensembl to Gene Symbol
-newname = read.csv("path/toGSE216704/new_genename.csv", header = TRUE, row.names = 1) # input re-name gene list
+newname = read.csv("path/to/GSE216704/new_genename.csv", header = TRUE, row.names = 1) # input re-name gene list
 newname = as.data.frame(newname)
 colnames(newname) = "gene"
 GSE216704_object@assays$RNA@counts@Dimnames[[1]] <- newname$gene
