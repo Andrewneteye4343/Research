@@ -12,7 +12,7 @@ GSE171524_norm = readRDS(file = "path/to/GSE171524/GSE171524_norm.rds")
 # Use table() function to gain the cell number in each sample
 # For instance, here's the sample 1_1
 sample1 = subset(x = GSE171524_norm, subset = id == "1_1")
-table(sample$label)
+table(sample1$label)
 
 # Record the cell number in each sample and calculate the proportion of each cell type in each sample
 # The cell proportion (per sample) is calculated  by (cell number of specific cell type) / (total cell number in the sample) 
