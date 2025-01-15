@@ -1,1 +1,4 @@
 Cell Proportion Calculation
+==========================================================================
+In this part, we calculated cell proportion to investigate the importnace of specific cell populattion in disease group.
+The cell proportion in calculated by the following formula: cell proportion (per sample) = (cell number of specific cell type) / (total cell number in the sample)
