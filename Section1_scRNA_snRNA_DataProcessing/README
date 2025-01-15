@@ -1,6 +1,6 @@
 scRNA and snRNA Data Process
-These data can be download from NCBI GEO website with their accession number
 ==========================================================================
+These data can be download from NCBI GEO website with their accession number
 GSE171524: COVID-19 lung snRNA
 GSE155249: COVID-19 BAL scRNA
 GSE149878: COVID-19 lung scRNA
@@ -8,3 +8,4 @@ GSE188172: COVID-19 PBMC scRNA
 GSE216704: COVID-19 BAL scRNA
 GSE128033: IPF BAL scRNA
 GSE192483: TB lung scRNA
+In these codes, we conducted normalization, scaling, dimensional reduction, cluster annotation and group assignment in the datasets.
