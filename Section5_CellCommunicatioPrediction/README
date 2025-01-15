@@ -2,3 +2,4 @@ Cell Communication Prediction
 ==========================================================================
 To investigate the cell communication, we used CellChat to predict the cellular and molecular interaction in datasets.
 The comparison between control and disease group reveals the signaling that potentially involves in macrophage differentiation in post-COVID-19 pulmonary fibrosis.
+GSE171524, GSE155249, GSE149878, GSE128033, GSE192483 and the spatial transcriptomics data were utilized in this section.
