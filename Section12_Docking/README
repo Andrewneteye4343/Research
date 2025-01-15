@@ -1,1 +1,5 @@
-
+Molecular Docking Simulation
+=========================================================================
+This is one of the drug discovery strategies in our study.
+In this section, we predict the binding affinity of compounds from Taiwan Health Insurance library.
+The stronger binding affinity reveals the more possibility to block GAS6 from TAM receptor binding and stop the signaling transduction.
