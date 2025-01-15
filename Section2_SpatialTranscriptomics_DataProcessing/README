@@ -1,3 +1,4 @@
 Spatial transcriptomics data processing
 ==========================================================================
 Data can be download from Mendeley Data (DOI:10.17632/xjtv62ncwr.1)
+In the code, we conducted normalization and cluster annotation in the 2 samples in this dataset.
