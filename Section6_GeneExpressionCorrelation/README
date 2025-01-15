@@ -1,3 +1,4 @@
 Gene Expression Correlation
 ==========================================================================
-To evaluate the regulatory relationship between genes in the lung microenvironment, we calculated the Pearson correlation between gene markers and interested genes in our findings.
+To evaluate the regulatory relationship between genes in the lung microenvironment, we calculated the Pearson correlation between well-known cell markers and interested genes in our findings.
+GSE208076 and GSE164013 datasets were utilized in this section.
