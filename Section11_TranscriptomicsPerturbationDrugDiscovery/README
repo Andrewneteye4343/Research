@@ -1,1 +1,4 @@
-
+Transcriptomics Perturbation Drug Discovery
+=========================================================================
+This is one of the drug discovery strategies in our study.
+With a given gene expression data, we can predict compounds that have the potential of reversing the gene expression pattern, indicating the applicability on disease inhibition.
