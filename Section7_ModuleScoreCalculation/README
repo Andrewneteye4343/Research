@@ -1,5 +1,5 @@
 Module Score Calculation
 =========================================================================
 To identify cell population and evaluate the cell phenotype, we conducted AddModuleScore() function to calculate the module score in each interested cluster.
-For profibrotic macrophage, we used CD9, TREM2, SPP1, LGMN, GPNMB, FABP5, CD63, and CD163 as gene member in the signature.
+For profibrotic macrophage, we considered CD9, TREM2, SPP1, LGMN, GPNMB, FABP5, CD63, and CD163 as gene member in the signature.
 GSE171524, GSE155249 and GSE149878 were utilized in this section.
