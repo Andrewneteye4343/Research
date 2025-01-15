@@ -1,1 +1,5 @@
-
+GAS6+ Plasma cell
+=========================================================================
+To identify the COVID-19 pulmonary fibrosis-associated plasma cell, we overlapper the top200 highly expressed genes in GAS6+ plasma cells from thress datasets.
+The overlapped 54 common genes are considered the GAS6+ plasma cell signature.
+GSE171524, GSE155249 and GSE149878 were utilized in this section.
