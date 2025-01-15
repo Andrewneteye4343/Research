@@ -41,7 +41,7 @@ GSE171524_norm@active.ident = as.factor(x = GSE171524_norm$label)
 markers = FindAllMarkers(object = GSE171524_norm, logfc.threshold = 0, only.pos = FALSE)
 
 # Save the markers results for further analysis in Section10_GeneSetEnrichmentAnalysis.R
-write.csv(x = markers, file = "C:/Users/user/Desktop/marker.csv")
+write.csv(x = markers, file = "path/to/YourDirectory/marker.csv")
 
 # In the final part of this section, we overlap the top200 markers (ranked by log2 fold change) in PC_GAS6.pos population in each dataset (GSE171524, GSE155249, GSE149878)
 # Then, get the 54 common markers in COVID-19 GAS6+ plasma cells, and regarded as  COVID-19 GAS6+ plasma cells signature
