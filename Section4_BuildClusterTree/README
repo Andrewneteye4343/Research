@@ -1,1 +1,3 @@
-
+Build Cluster Tree
+==========================================================================
+To evaluate the transcriptomic similarity between monocyte and macrophage populations, we used BuildClusterTree() function for visualization.
