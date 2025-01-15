@@ -1,1 +1,10 @@
-
+scRNA and snRNA Data Process
+==========================================================================
+Dataset:
+GSE171524: COVID-19 lung snRNA
+GSE155249: COVID-19 BAL scRNA
+GSE149878: COVID-19 lung scRNA
+GSE188172: COVID-19 PBMC scRNA
+GSE216704: COVID-19 PBMC scRNA
+GSE128033: IPF BAL scRNA
+GSE192483: TB lung scRNA
