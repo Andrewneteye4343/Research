@@ -41,15 +41,11 @@ GSE208076_norm = read.csv(file = "path/to/GSE208076/GSE208076_norm.csv", header 
 GSE208076_norm = as.data.frame(t(GSE208076_norm))
 
 # list the interested gene members
-names = c("ENSG00000183087","ENSG00000128383","ENSG00000143546",
-          "ENSG00000163220","ENSG00000135218","ENSG00000072274","ENSG00000115414","ENSG00000010278",
-          "ENSG00000135404","ENSG00000177575","ENSG00000100600","ENSG00000136235","ENSG00000118785",
-          "ENSG00000170323","ENSG00000122641","ENSG00000108821","ENSG00000164692","ENSG00000107796")
+names = c("")
 gene_members = GSE208076_norm[,names]
 
 # list the gene name for these gene members
-colnames(gene_members) = c("GAS6","APOBEC3A","S100A8","S100A9","CD36","TFRC","FN1","CD9","CD63","CD163","LGMN","GPNMB",
-                           "SPP1","FABP4","INHBA","COL1A1","COL1A2","ACTA2")
+colnames(gene_members) = c("")
 
 # Calculate the Pearson correlation
 correlation_results = cor(x =  gene_members, method = "pearson")
