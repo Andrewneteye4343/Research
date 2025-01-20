@@ -19,13 +19,11 @@ GSE164013 = read.csv(file = "path/to/GSE164013/GSE164013.csv", header = TRUE, ro
 GSE164013 = as.data.frame(t(GSE164013))
 
 # list the interested gene members
-names = c("GAS6","APOBEC3A","S100A8","S100A9","CD68","CD36","TFRC","FN1","CD9","CD63","CD163","LGMN","GPNMB",
-          "SPP1","FABP4","INHBA","COL1A1","COL1A2","ACTA2")
+names = c("")
 gene_members = GSE164013[names]
 
 # list the gene name for these gene members
-colnames(gene_members) = c("GAS6","APOBEC3A","S100A8","S100A9","CD68","CD36","TFRC","FN1","CD9","CD63","CD163","LGMN","GPNMB",
-                           "SPP1","FABP4","INHBA","COL1A1","COL1A2","ACTA2")
+colnames(gene_members) = c("")
 
 # Calculate the Pearson correlation
 correlation_results = cor(x =  gene_members, method = "pearson")
