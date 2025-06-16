@@ -46,7 +46,7 @@ stat.test <- add_xy_position(stat.test, x = "group")
 # Adjust the max_value according to the y axis in each cell type proportion result
 # For example, we used 0.3 in AEP1 cell proportion for visualization
 max_value = 0.3
-plot = ggboxplot(test, x = "group", y = "Proportion", fill = "group", ylim = c(-0.01,max_value)) +
+plot = ggboxplot(stat.test, x = "group", y = "Proportion", fill = "group", ylim = c(-0.01,max_value)) +
   xlab("") +
   ylab("Cell proportion") +
   geom_jitter(shape = 16, position = position_jitter(0.1)) +
